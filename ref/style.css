@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Baloo 2', 'cursive';
+}
+
+
+@media (min-width: 320px){
+    header{
+        width: 100%;
+        min-width: 150px;
+        height: 205px;
+        justify-content: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(232, 128, 107, 1);
+    }
+    header div{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    header img{
+        width: 260px;
+        height: 90px;
+        align-self: center;
+        position: relative;
+        top: -7px;
+    }
+    header ul{
+        list-style-type: none;
+        overflow: hidden;
+        position: absolute;
+        left: calc(50% - 136px);
+        top: 185px;
+        width: auto;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    header li{
+        display: inline;
+    }
+    header li a{
+        background-color: rgb(236, 226, 200);
+        display: inline-block;
+        color: rgba(0, 0, 0, 0.70);
+        text-align: center;
+        padding: 7px 20px;
+        text-decoration: none;
+        font-size: 1.6rem;
+    }
+    header li a:hover{
+        background-color: rgba(227, 213, 174, 1);
+    }
+    main{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    main h1{
+        padding-top: 48px;
+        font-size: 2.8rem;
+        color: rgba(0, 0, 0, 0.80);
+        align-self: center;
+    }
+    header span{
+        color: rgb(22, 20, 20, 0.9);
+    }
+}
+
+@media (min-width: 768px){
+    header{
+        width: 100%;
+        min-width: 150px;
+        height: 205px;
+        justify-content: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(232, 128, 107, 1);
+    }
+    header div{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    header img{
+        width: 260px;
+        height: 90px;
+        align-self: center;
+        position: relative;
+        top: -7px;
+    }
+    header ul{
+        list-style-type: none;
+        overflow: hidden;
+        position: absolute;
+        left: calc(50% - 160px);
+        top: 185px;
+        width: auto;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    header li{
+        display: inline;
+    }
+    header li a{
+        background-color: rgb(236, 226, 200);
+        display: inline-block;
+        color: rgba(0, 0, 0, 0.70);
+        text-align: center;
+        padding: 7px 26px;
+        text-decoration: none;
+        font-size: 1.6rem;
+    }
+    header li a:hover{
+        background-color: rgba(227, 213, 174, 1);
+    }
+    main{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    main h1{
+        padding-top: 48px;
+        font-size: 2.8rem;
+        color: rgba(0, 0, 0, 0.80);
+        align-self: center;
+    }
+    header span{
+        color: rgb(22, 20, 20, 0.9);
+    }
+}
+
+@media (min-width: 1024px){
+    header{
+        width: 100%;
+        min-width: 150px;
+        height: 205px;
+        justify-content: center;
+        display: flex;
+        flex-direction: initial;
+        background-color: #377ABD;
+    }
+    header div{
+        width: 50%;
+        justify-content: center;
+        display: flex;
+    }
+    header img{
+        width: 270px;
+        height: 90px;
+        align-self: center;
+    }
+    header ul{
+        list-style-type: none;
+        overflow: hidden;
+        margin-top: 70px;
+        width: 317px;
+        top: 0px;
+        position: absolute;
+        left: auto;
+        border: none;
+        box-shadow: none;
+        border-radius: 0%;
+    }
+    header li{
+        display: inline;
+    }
+    header li a{
+        background-color: rgb(236, 226, 200);
+        display: inline-block;
+        color: rgba(0, 0, 0, 0.70);
+        text-align: center;
+        padding: 7px 23px;
+        text-decoration: none;
+        font-size: 1.6rem;
+    }
+    header li a:hover{
+        background-color: rgba(227, 213, 174, 1);
+    }
+    main{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    main h1{
+        font-size: 2.8rem;
+        color: rgba(0, 0, 0, 0.80);
+        align-self: center;
+    }
+}
